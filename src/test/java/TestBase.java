@@ -1,6 +1,7 @@
 import common.WebDriverFactory;
 import enums.BrowserEnum;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
@@ -8,6 +9,9 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
 
     protected WebDriver driver;
+
+    WebDriverWait webDriverWait = new WebDriverWait(driver, 5);
+
 
     @Parameters("browser")
     @BeforeClass
@@ -18,7 +22,8 @@ public class TestBase {
     }
 
     @AfterClass
-    public void tearDown() {
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(5000);
         driver.quit();
     }
 }

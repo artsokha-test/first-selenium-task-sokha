@@ -2,7 +2,8 @@
 
 <suite name="Suite1" verbose="1" >
 
-    <parameter name="browser" value="FIREFOX"/>
+
+    <parameter name="browser" value="FIREFOX"/>  <!--use "FIREFOX" or "CHROME"-->
 
     <test name="ui_test" >
         <classes>
