@@ -2,11 +2,11 @@
 
 <suite name="Suite1" verbose="1" >
 
-    <parameter name="browser" value="CHROME"/>
+    <parameter name="browser" value="FIREFOX"/>
 
     <test name="ui_test" >
         <classes>
-            <class name="ui_test.CreateInfluencerTest" />
+            <class name="MailCheckerTest" />
         </classes>
     </test>
 
