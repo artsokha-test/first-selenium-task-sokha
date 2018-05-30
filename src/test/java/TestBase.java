@@ -10,8 +10,7 @@ public class TestBase {
 
     protected WebDriver driver;
 
-    WebDriverWait webDriverWait = new WebDriverWait(driver, 5);
-
+    WebDriverWait webDriverWait;
 
     @Parameters("browser")
     @BeforeClass
@@ -19,6 +18,7 @@ public class TestBase {
         driver = new WebDriverFactory(browser).getWebdriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        webDriverWait = new WebDriverWait(driver, 5);
     }
 
     @AfterClass
