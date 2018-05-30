@@ -18,12 +18,11 @@ public class TestBase {
         driver = new WebDriverFactory(browser).getWebdriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        webDriverWait = new WebDriverWait(driver, 5);
+        webDriverWait = new WebDriverWait(driver, 7);
     }
 
     @AfterClass
     public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
         driver.quit();
     }
 }

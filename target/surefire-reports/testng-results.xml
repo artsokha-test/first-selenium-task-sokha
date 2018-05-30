@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="8609" started-at="2018-05-29T13:06:23Z" finished-at="2018-05-29T13:06:32Z">
+  <suite name="Suite1" duration-ms="14192" started-at="2018-05-30T15:07:07Z" finished-at="2018-05-30T15:07:21Z">
     <groups>
     </groups>
-    <test name="ui_test" duration-ms="8609" started-at="2018-05-29T13:06:23Z" finished-at="2018-05-29T13:06:32Z">
+    <test name="ui_test" duration-ms="14192" started-at="2018-05-30T15:07:07Z" finished-at="2018-05-30T15:07:21Z">
       <class name="MailCheckerTest">
-        <test-method status="PASS" signature="setup(enums.BrowserEnum)[pri:0, instance:MailCheckerTest@3cbbc1e0]" name="setup" is-config="true" duration-ms="2802" started-at="2018-05-29T13:06:23Z" finished-at="2018-05-29T13:06:26Z">
+        <test-method status="PASS" signature="setup(enums.BrowserEnum)[pri:0, instance:MailCheckerTest@35fb3008]" name="setup" is-config="true" duration-ms="4869" started-at="2018-05-30T15:07:07Z" finished-at="2018-05-30T15:07:12Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="gmailTest()[pri:0, instance:MailCheckerTest@3cbbc1e0]" name="gmailTest" duration-ms="4262" started-at="2018-05-29T13:06:26Z" finished-at="2018-05-29T13:06:30Z">
+        <test-method status="PASS" signature="gmailTest()[pri:0, instance:MailCheckerTest@35fb3008]" name="gmailTest" duration-ms="8197" started-at="2018-05-30T15:07:12Z" finished-at="2018-05-30T15:07:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gmailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MailCheckerTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="1525" started-at="2018-05-29T13:06:30Z" finished-at="2018-05-29T13:06:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MailCheckerTest@35fb3008]" name="tearDown" is-config="true" duration-ms="1108" started-at="2018-05-30T15:07:20Z" finished-at="2018-05-30T15:07:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
