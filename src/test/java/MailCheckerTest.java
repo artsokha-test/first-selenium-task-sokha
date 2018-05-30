@@ -21,9 +21,6 @@ public class MailCheckerTest extends TestBase{
         "Mail not found: ");
 
 
-
-
-
     }
 
 }
